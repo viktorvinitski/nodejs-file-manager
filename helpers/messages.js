@@ -1,0 +1,16 @@
+export const messages = {
+    start: (userName) => `Welcome to the File Manager, ${userName}!`,
+    finish: (userName) => `Thank you for using File Manager, ${userName}, goodbye!`,
+    directory: (path) => `You are currently in ${path}`,
+    waiting: (userName) => `Waiting for your command, ${userName}`,
+    invalidInput: 'Invalid input',
+    failedOperation: 'Operation failed',
+    created: 'File successfully created!',
+    renamed: 'File successfully renamed!',
+    copied: 'File successfully copied!',
+    moved: 'File successfully moved!',
+    removed: 'File successfully removed!',
+    compressed: 'File successfully compressed!',
+    decompressed: 'File successfully decompressed!',
+    EOL: (EOL) => `End of Line: ${JSON.stringify(EOL)}`,
+}
